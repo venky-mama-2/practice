@@ -1,0 +1,31 @@
+<div fxLayout="column">
+  <div fxLayout="row" class="menu-bar">
+    <div fxFlex="20">
+      <img src="/images/logo.png" class="logo"/>
+    </div>
+    <div fxFlex="80">
+      <div fxLayout="row" fxLayoutAlign="end" fxLayoutGap="1.5rem">
+        <button mat-raised-button class="button">Login/Sign Up</button>
+        <button mat-button [matMenuTriggerFor]="animals">
+          <img src="/images/menu-logo.png" class="menu-logo"/>
+        </button>
+        <mat-menu #animals="matMenu">
+          <div fxLayout="column" fxLayoutGap="0.1rem" class="color">
+            <button mat-menu-item >About Kubera</button>
+            <button mat-menu-item [matMenuTriggerFor]="knowledgeCenterMenu">Knowledge Center</button>
+            <button mat-menu-item >About Us</button>
+            <button mat-menu-item >Contact Us</button>
+            <button mat-menu-item >Refer & Earn</button>
+          </div>
+        </mat-menu>
+        <mat-menu #knowledgeCenterMenu="matMenu">
+          <div fxLayout="column" fxLayoutGap="0.1rem" class="color">
+            <button mat-menu-item >Blogs</button>
+            <button mat-menu-item >Webinars</button>
+            <button mat-menu-item >FAQs</button>
+          </div>
+        </mat-menu>
+      </div>
+    </div>
+  </div>
+</div>
