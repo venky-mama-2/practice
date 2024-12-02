@@ -1,6 +1,6 @@
 <div fxLayout="column">
   <div fxLayout="row" class="menu-bar">
-    <div fxFlex="20">
+    <div fxFlex="20" (click)="goToNextPage('')">
       <img src="/images/logo.png" class="logo"/>
     </div>
     <div fxFlex="80">
@@ -11,18 +11,18 @@
         </button>
         <mat-menu #animals="matMenu">
           <div fxLayout="column" fxLayoutGap="0.1rem" class="color">
-            <button mat-menu-item >About Kubera</button>
+            <button mat-menu-item (click)="goToNextPage('/about-kubera')">About Kubera</button>
             <button mat-menu-item [matMenuTriggerFor]="knowledgeCenterMenu">Knowledge Center</button>
-            <button mat-menu-item >About Us</button>
-            <button mat-menu-item >Contact Us</button>
-            <button mat-menu-item >Refer & Earn</button>
+            <button mat-menu-item (click)="goToNextPage('/about-us')">About Us</button>
+            <button mat-menu-item (click)="goToNextPage('/contact-us')">Contact Us</button>
+            <button mat-menu-item (click)="goToNextPage('/refer-and-earn')">Refer & Earn</button>
           </div>
         </mat-menu>
         <mat-menu #knowledgeCenterMenu="matMenu">
           <div fxLayout="column" fxLayoutGap="0.1rem" class="color">
-            <button mat-menu-item >Blogs</button>
-            <button mat-menu-item >Webinars</button>
-            <button mat-menu-item >FAQs</button>
+            <button mat-menu-item (click)="goToNextPage('/blogs')">Blogs</button>
+            <button mat-menu-item (click)="goToNextPage('/webinars')">Webinars</button>
+            <button mat-menu-item (click)="goToNextPage('/faqs')">FAQs</button>
           </div>
         </mat-menu>
       </div>

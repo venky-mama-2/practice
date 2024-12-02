@@ -3,6 +3,8 @@ import { FlexLayoutModule } from '@ngbracket/ngx-layout';
 import { FlexLayoutServerModule } from "@ngbracket/ngx-layout/server";
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import { Router } from "@angular/router";
+
 
 @Component({
   selector: 'app-menu-bar',
@@ -17,5 +19,12 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './menu-bar.component.scss'
 })
 export class MenuBarComponent {
+
+  constructor(private router:Router){
+
+  }
+  goToNextPage(path:any){
+    this.router.navigate([path])
+  }
 
 }
