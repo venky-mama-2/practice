@@ -1,4 +1,37 @@
 <app-menu-bar></app-menu-bar>
-<div fxLayout="column">
-
+<div class="padding main-content" >
+  <div fxLayout="column" >
+      <div fxLayout="row" fxLayoutAlign="center" >Blogs</div>
+      <div fxLayout="row" fxLayoutAlign="center" >
+          <img class="underline" src="/images/blogs/underline.svg" />
+      </div>
+      <div fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xl="1rem" fxLayoutGap.lg="1rem"
+        fxLayoutGap.md="1rem" fxLayoutGap.sm="2rem" fxLayoutGap.xs="2rem"  >
+          @for (item of items1; track $index) {
+              <div fxFlex="32" class="cursor" >
+                  <mat-card class="example-card card" appearance="outlined" >
+                      <div fxLayout="column" class="heights" >
+                          <div fxLayout="row" fxLayoutAlign="center" >
+                              <img class="img" [src]="item.row1Img" >
+                          </div>
+                          <div fxLayout="row" class="highlight" >{{item.row1Title}}</div>
+                          <div fxLayout="row" class="text" >{{item.row1Description}}</div>
+                          <div fxLayout="row" class="spaces" >
+                            <div fxFlex="50" >
+                                <div fxLayout="row" fxLayoutAlign="start" >{{item.row1Date}}</div>
+                            </div>
+                            <div fxFlex="50" >
+                                <div fxLayout="row" fxLayoutAlign="end" >
+                                  <a target="_blank" [href]="item.link" >
+                                    <button mat-flat-button >Read More</button>
+                                  </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  </mat-card>
+              </div>
+          }
+      </div>
+  </div>
 </div>
