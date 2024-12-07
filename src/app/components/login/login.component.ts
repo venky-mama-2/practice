@@ -2,21 +2,18 @@ import { Component } from '@angular/core';
 import { MenuBarComponent } from "../../components/menu-bar/menu-bar.component";
 import { FlexLayoutModule } from '@ngbracket/ngx-layout';
 import { FlexLayoutServerModule } from '@ngbracket/ngx-layout/server';
-import {MatButtonModule} from '@angular/material/button';
-
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-login',
   standalone: true,
   imports: [
     MenuBarComponent,
     FlexLayoutModule,
-    FlexLayoutServerModule,
-    MatButtonModule
+    FlexLayoutServerModule
   ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.scss'
 })
-export class HomeComponent {
+export class LoginComponent {
 
 }

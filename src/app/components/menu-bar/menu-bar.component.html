@@ -1,11 +1,12 @@
-<div fxLayout="column">
+<div fxLayout="column" fxFlex="100">
   <div fxLayout="row" class="menu-bar">
-    <div fxFlex="20" (click)="goToNextPage('')">
+    <div fxFlex.xl="20" fxFlex.lg="20" fxFlex.md="20" fxFlex.sm="100" fxFlex.xs="100" (click)="goToNextPage('/')">
       <img src="/images/logo.png" class="logo"/>
     </div>
-    <div fxFlex="80">
-      <div fxLayout="row" fxLayoutAlign="end" fxLayoutGap="1.5rem">
-        <button mat-raised-button class="button">Login/Sign Up</button>
+    <div fxFlex.xl="80" fxFlex.lg="80" fxFlex.md="80" fxFlex.sm="100" fxFlex.xs="100">
+      <div fxLayout="row" fxLayoutAlign="end"  fxLayoutGap.xl="1.5rem" fxLayoutGap.lg="1.5rem" fxLayoutGap.md="1.5rem"
+      fxLayoutGap.sm="0rem" fxLayoutGap.xs="0rem">
+        <button mat-raised-button class="button" (click)="goToNextPage('/login')">Login/Sign Up</button>
         <button mat-button [matMenuTriggerFor]="animals">
           <img src="/images/menu-logo.png" class="menu-logo"/>
         </button>

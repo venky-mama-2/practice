@@ -32,5 +32,9 @@ export const routes: Routes = [
   {
     path:"refer-and-earn",
     loadComponent: () => import('./components/refer-and-earn/refer-and-earn.component').then( c => c.ReferAndEarnComponent)
+  },
+  {
+    path:"login",
+    loadComponent: () => import('./components/login/login.component').then( c => c.LoginComponent)
   }
 ];
