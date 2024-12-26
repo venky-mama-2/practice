@@ -1,5 +1,6 @@
 .logo{
-  width: 40%;
+  width: 7rem;
+  height: 5rem;
 }
 .menu-bar{
   background-color: #171020;
@@ -17,6 +18,15 @@
   float: left;
   list-style: none;
 }
+.menu-bar > div:nth-child(2) > div {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  align-items: center !important;
+}
+
 .menu-logo{
   width: 60%;
 }
@@ -42,16 +52,34 @@
 
 @media all and (max-width: 950px) {
   .logo{
-    width: 70%;
+    width: 5rem;
+    height: 4rem;
   }
   .button {
-    padding: 0.7rem !important;
+    padding: 1rem !important;
     font-size: 1rem;
     white-space: nowrap;
   }
   .menu-bar{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    overflow-x: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    // overflow-x: scroll;
+  }
+  .menu-logo{
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 340px) {
+  .button {
+    padding: 0.7rem !important;
+    margin-right: -1rem !important;
+  }
+  .menu-logo{
+    width: 55%;
+  }
+  .logo {
+    height: 4rem;
+    width: 5rem;
   }
 }

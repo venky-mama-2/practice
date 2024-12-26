@@ -36,5 +36,6 @@ export const routes: Routes = [
   {
     path:"login",
     loadComponent: () => import('./components/login/login.component').then( c => c.LoginComponent)
-  }
+  },
+
 ];

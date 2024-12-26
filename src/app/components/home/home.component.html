@@ -3,11 +3,21 @@
   <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.xs="column" fxLayout.sm="column" class="bg-1">
     <div fxFlex="100">
       <div fxLayout="column" class="main-content" fxLayoutGap.lg="1.5rem" fxLayoutGap.xl="1.5rem" fxLayoutGap.md="1.5rem" fxLayoutGap.sm="0.5rem" fxLayoutGap.xs="0.5rem">
-        <div fxLayout="row" fxLayoutAlign="center" fxLayoutGap="0.8rem">
+        <div fxLayout="row" fxLayoutAlign="center" fxLayoutGap="0.8rem" fxShow.xl fxShow.lg fxShow.md fxHide.sm fxHide.xs>
           <span>Invest in</span>
           <span>Kubera</span>
           <span>Become a</span>
           <span>Kubera</span>
+        </div>
+        <div fxLayout="column" fxLayoutGap="0.3rem" fxHide.xl fxHide.lg fxHide.md fxShow.sm fxShow.xs>
+          <div class="f-1p3">
+            <span>Invest in </span>
+            <span class="color-1">Kubera</span>
+          </div>
+          <div class="f-1p3">
+            <span>Become a </span>
+            <span class="color-1">Kubera</span>
+          </div>
         </div>
         <div fxLayout="row" fxLayoutAlign="center">
           Transform Your Investments into Lasting Value
@@ -20,7 +30,7 @@
             <img src="/images/home-page/mx-player.svg"/>
             <div class="color-0">Start Investing</div>
         </div>
-        <div fxLayout="row" fxLayoutAlign="center" class="bg-img-2">
+        <div fxLayout="row" fxLayoutAlign="center" class="bg-img-2 mobile-mt-4">
           <img src="/images/home-page/gold-coins.png" class="mb-2 coins-img"/>
         </div>
       </div>
@@ -38,7 +48,7 @@
         <div fxLayout="row" fxLayoutAlign="center">
           <img src="/images/line.svg" class="w-70"/>
         </div>
-        <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.xs="column" fxLayout.sm="column"  fxFlex="100" fxLayoutGap.sm="1rem" fxLayoutGap.xs="1rem" class="journey-section bg-color">
+        <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.xs="column" fxLayout.sm="column"  fxFlex="100" fxLayoutGap.sm="2rem" fxLayoutGap.xs="2rem" class="journey-section bg-color mobile-mb-2">
           <div fxFlex.xl="25" fxFlex.lg="25" fxFlex.md="25" fxFlex.sm="100" fxFlex.xs="100">
             <div fxLayout="column" fxLayoutGap.xl="1rem" fxLayoutGap.lg="1rem" fxLayoutGap.md="1rem" fxLayoutGap.xs="0rem" fxLayoutGap.sm="0rem">
               <div><span>100+ </span><span>Crores</span></div>
@@ -80,7 +90,7 @@
         <div fxLayout="row" fxLayoutAlign="center">
           <img src="/images/line.svg" class="mt-1 mb-3 w-70"/>
         </div>
-        <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center" fxFlex="100" fxLayoutGap="3rem" class="scheme-goals">
+        <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center" fxFlex="100" fxLayoutGap.xl="3rem" fxLayoutGap.lg="3rem" fxLayoutGap.md="3rem" fxLayoutGap.sm="0rem" fxLayoutGap.xs="0rem" class="scheme-goals">
           <div fxFlex.xl="40" fxFlex.lg="40" fxFlex.md="40" fxFlex.sm="100" fxFlex.xs="100">
             <div fxLayout="column" fxLayoutGap="0.8rem">
               <img src="/images/home-page/img-2.png"/>
@@ -94,7 +104,8 @@
               <div>There are various types of investments available and you can choose investment</div>
             </div>
           </div>
-          <img src="/images/home-page/horizontal-line.png" class="horizontal-line"/>
+          <img src="/images/home-page/horizontal-line.png" class="horizontal-line" fxShow.xl fxShow.lg fxShow.md fxHide.sm fxHide.xs/>
+          <img src="/images/home-page/vertical-line.png" class="vertical-line mt-2 mb-1 ml-n4" fxHide.xl fxHide.lg fxHide.md fxShow.sm fxShow.xs/>
           <div fxFlex.xl="40" fxFlex.lg="40" fxFlex.md="40" fxFlex.sm="100" fxFlex.xs="100" class="mt-5">
             <div fxLayout="column" fxLayoutGap="0.8rem">
               <img src="/images/home-page/img-3.png"/>
@@ -115,7 +126,7 @@
   <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutALign="center" class="gold">
     <div fxFlex.xl="53" fxFlex.lg="53" fxFlex.md="53" fxFlex.sm="100" fxFlex.xs="100">
       <div fxLayout="row" fxLayoutAlign="center">
-        <img src="/images/home-page/gold.png"/>
+        <img src="/images/home-page/gold.png" class="gold-img"/>
       </div>
     </div>
     <div fxFlex.xl="45" fxFlex.lg="45" fxFlex.md="45" fxFlex.sm="100" fxFlex.xs="100">
@@ -132,7 +143,7 @@
     <div fxFlex="5">
     </div>
     <div fxFlex.xl="65" fxFlex.lg="65" fxFlex.md="65" fxFlex.sm="100" fxFlex.xs="100">
-      <div fxLayout="column" fxLayoutGap="1.8rem">
+      <div fxLayout="column" fxLayoutGap.xl="1.8rem" fxLayoutGap.lg="1.8rem" fxLayoutGap.md="1.8rem" fxLayoutGap.sm="0.8rem" fxLayoutGap.xs="0.8rem">
         <div>Start investing in just 3 minutes</div>
         <img src="/images/line.svg" class="w-30"/>
         <div>Register and create your first support portal</div>
@@ -156,7 +167,7 @@
       <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" class="bg-2">
         <div fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100">
           <img src="/images/home-page/Ellipse-3.png" class="ellipse"/>
-          <div fxLayout="column" fxLayoutGap="1rem">
+          <div fxLayout="column" fxLayoutGap.xl="1rem" fxLayoutGap.lg="1rem" fxLayoutGap.md="1rem" fxLayoutGap.sm="0.2rem" fxLayoutGap.xs="0.2rem">
             <div>Start your free trial</div>
             <div>New user? Build your</div>
             <div>wealth now.</div>
@@ -170,14 +181,14 @@
       </div>
     </div>
   </div>
-  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxFlex="100" class="bg-img-5">
+  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxFlex="100" fxLayoutGap.xl="0rem" fxLayoutGap.lg="0rem" fxLayoutGao.md="0rem" fxLayoutGap.sm="1rem" fxLayoutGap.xs="1rem" class="bg-img-5">
     <div fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.xs="100" fxFlex.sm="100">
       <div fxLayout="row" fxLayoutAlign="center">
         <img src="/images/home-page/phone-white.png" class="w-50"/>
       </div>
     </div>
     <div fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.xs="100" fxFlex.sm="100">
-      <div fxLayout="column" fxLayoutGap="2rem">
+      <div fxLayout="column" fxLayoutGap.xl="2rem" fxLayoutGap.lg="2rem" fxLayoutGap.md="2rem" fxLayoutGap.sm="1rem" fxLayoutGap.xs="1rem">
         <div>Easy investments at your fingertips</div>
         <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.lg="3rem" fxLayoutGap.lg="3rem" fxLayoutGap.md="3rem" fxLayoutGap.sm="1rem" fxLayoutGap.xs="1rem" fxLayoutAlign.sm="center" fxLayoutAlign.xs="center" class="play-store">
           <img src="/images/home-page/google.png"/>

@@ -139,18 +139,18 @@
   font-weight: 100;
   line-height: 1.8rem;
 }
-.scheme-goals > div:nth-child(3) > div:first-child > div:nth-child(2){
+.scheme-goals > div:nth-child(4) > div:first-child > div:nth-child(2){
   font-size: 1.8rem;
 }
-.scheme-goals > div:nth-child(3) > div:first-child > div:nth-child(3){
+.scheme-goals > div:nth-child(4) > div:first-child > div:nth-child(3){
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.8rem;
 }
-.scheme-goals > div:nth-child(3) > div:nth-child(3) > div:nth-child(2){
+.scheme-goals > div:nth-child(4) > div:nth-child(3) > div:nth-child(2){
   font-size: 1.8rem;
 }
-.scheme-goals > div:nth-child(3) > div:nth-child(3) > div:nth-child(3){
+.scheme-goals > div:nth-child(4) > div:nth-child(3) > div:nth-child(3){
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.8rem;
@@ -250,108 +250,154 @@
 }
 @media all and (max-width: 950px) {
   .bg-1{
-    background-size: inherit;
-    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .coins-img{
+    width: 44%;
   }
   .kubera-img{
     width: 100% !important;
   }
-  .bg-1 > div > div > div:first-child{
-    font-size: 1.2rem;
-    white-space: nowrap;
-  }
   .bg-1 > div > div > div:nth-child(2){
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
-  }
-  .main-content{
-    padding-top:5rem;
-    font-weight: 100;
-    overflow-x: hidden;
   }
   .button-0{
-    width: 52%;
+    width: 40%;
     font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     white-space: nowrap;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
   }
   .color-0{
-    font-size: 1.2rem !important;
-    white-space: nowrap;
+    font-size: 1rem !important;
     margin-left: -0.5rem;
+    white-space: nowrap;
+
   }
-  .coins-img{
-    width: 41%;
+  .mobile-mt-4{
+    margin-top: 1rem;
   }
   .bg-img-3{
-    margin-top: -1.5rem !important;
-  }
-  .bg-img-3 > div > div > div:nth-child(2) {
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 1.5rem;
-  }
-  .bg-color{
-    padding: 0.5rem !important;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  div:nth-child(4){
-    font-size: 1.3rem !important;
-    text-align: center;
-    line-height: 1.5rem;
-  }
-  .mt-5{
-    margin-top: -36rem !important;
-  }
-  .w-70{
-    width: 78%;
-  }
-  .w-30{
-    width: 70% !important;
-  }
-  .play-store img{
-    width: 70%;
-  }
-  .journey-section > div:first-child,div:nth-child(2),div:nth-child(3),div:nth-child(4){
-    font-size: 1.3rem;
-  }
-  .bg-img-5{
-    padding-top: 0rem;
-    margin-top: 3rem;
-  }
-  .computer{
-    width: 80%;
+    margin-top: -3rem;
   }
   .phone-img{
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
-  .mb-2 {
-    margin-bottom: 1rem;
+  .bg-img-3 > div > div > div:nth-child(2){
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .w-70{
+    width: 65%;
+  }
+  .journey-section > div:first-child,div:nth-child(2),div:nth-child(3),div:nth-child(4){
+    font-size: 1.5rem;
+    text-align: center;
   }
   .journey-section > div:first-child > div > div:nth-child(2){
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .journey-section > div:nth-child(2) > div > div:nth-child(2){
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .journey-section > div:nth-child(3) > div > div:nth-child(2){
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .journey-section > div:nth-child(4) > div > div:nth-child(2){
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
-  .scheme-goals > div:first-child > div > div:nth-child(2) {
-    font-size: 1.3rem;
+  .bg-color{
+    border-radius: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center !important;
+    line-height: 2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .mobile-mb-2{
+    margin-bottom: 2rem;
   }
   .scheme-goals img{
     width: 25%;
   }
-  .scheme-goals > div:first-child > div > div:nth-child(3) {
-    font-size: 1.2rem;
-    line-height: 1.3rem;
+  .vertical-line{
+    width: 94% !important;
   }
-
+  .ml-n4{
+    margin-left: 1rem;
+  }
+  .mt-5 {
+    margin-top: 0rem;
+  }
+  .mb-3{
+    margin-bottom: 0rem;
+  }
+  .gold-img{
+    width: 100%;
+  }
+  .gold > div:nth-child(2) > div > div:first-child{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .gold > div:nth-child(2) > div > div:nth-child(2){
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .investment-section div{
+    font-size: 1.3rem;
+    text-align: -webkit-center;
+    font-weight: 300;
+  }
+  .w-30{
+    width: 78% !important;
+    align-self: center;
+    margin-top: 0rem;
+  }
+  .investment-section > div:nth-child(2) > div > div:nth-child(4){
+    line-height: 1.5rem;
+  }
+  .w-40{
+    width: 96%;
+  }
+  .computer{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .ellipse{
+    margin-top: -2rem;
+    margin-left: -3.8rem;
+    width: 100%;
+  }
+  .bg-img-4{
+    width: 92%;
+    background-position-y: top;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+    height: 10rem;
+  }
+  .bg-img-5{
+    margin-top: 4rem;
+    padding-top: 2rem;
+    background-size: 100%;
+    padding-bottom: 2rem;
+  }
+  .play-store img{
+    width: 68%;
+    align-self: center;
+  }
+  .f-1p3{
+    font-size: 1.3rem !important;
+  }
+  .main-content{
+    padding-top:7rem;
+    font-weight: 100;
+  }
+  .color-1{
+    color: #6d1bd2;
+  }
 }
