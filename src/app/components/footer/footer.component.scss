@@ -1,0 +1,29 @@
+.footer{
+  padding-top: 3rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding-bottom: 8rem;
+}
+.heading{
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.highlights > div:not(:first-child):hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+@media all and (max-width: 950px) {
+  .footer{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  .heading{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
