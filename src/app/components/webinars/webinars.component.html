@@ -1,6 +1,68 @@
 <app-menu-bar></app-menu-bar>
-<div fxLayout="column" class="padding">
-  <div fxLayout="row">
-    <div>Webinars</div>
+<div fxLayout="column" class="padding" fxLayoutGap="5rem">
+  <!-- view webinars section -->
+  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="4rem" class="center">
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <div fxLayout="column" fxLayoutGap="1.5rem" class="webinars">
+        <div>Webinars</div>
+        <img src="/images/line.svg" class="line"/>
+        <div>
+          Welcome to Kubera Schemes webinar series .Here we share insights, best practices and the latest trend. Join our exclusive webinars to make informed investment decisions with confidence
+        </div>
+        <div fxLayout="row" >
+          <button fxFlex.xl="40" fxFlex.lg="40" fxFlex.md="40" fxFlex.sm="100" fxFlex.xs="100" mat-flat-button>View Webinars</button>
+        </div>
+      </div>
+    </div>
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <img src="/images/webinars/img-1.png"/>
+    </div>
+  </div>
+  <!-- expert section -->
+  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column"  fxLayoutGap="2rem" class="center">
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <div fxLayout="row" fxLayoutAlign="center">
+        <img src="/images/webinars/img-2.png"/>
+      </div>
+    </div>
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <div fxLayout="column" fxLayoutGap="1.5rem" class="expert">
+        <div>Expert Insights</div>
+        <div>
+          Learn from industry leaders and seasoned investors.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- interactive sessions -->
+  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column"  fxLayoutAlign="center" fxLayoutGap="2rem" class="center">
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <div fxLayout="column" fxLayoutGap="1.5rem" class="sessions">
+        <div>Interactive Sessions</div>
+        <div>
+          Get your questions answered live during the Q&A
+        </div>
+      </div>
+    </div>
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <img src="/images/webinars/img-3.png"/>
+    </div>
+  </div>
+  <!-- demand access  -->
+  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column"  fxLayoutGap="2rem" class="center">
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <div fxLayout="row" fxLayoutAlign="center">
+        <img src="/images/webinars/img-4.png"/>
+      </div>
+    </div>
+    <div fxFlex.xl="50" fxLayout.lg="50" fxLayout.md="50" fxLayout.sm="100" fxLayout.xs="100">
+      <div fxLayout="column" fxLayoutGap="1.5rem" class="expert">
+        <div>On Demand Access</div>
+        <div>
+          view past Webinars at your convenience without any sign up..
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<app-footer></app-footer>

@@ -1,0 +1,415 @@
+.padding{
+  padding-top: 5rem;
+}
+.bg-1{
+  background-image: url('/images/about-kubera/rectangular.png');
+  background-size: 100%;
+}
+.kuber-img{
+  width: 50%;
+}
+.center{
+  align-items: center;
+  padding-top: 4rem;
+}
+.center > div:first-child,div:nth-child(2){
+  font-size: 2rem;
+  font-weight: 400;
+}
+.center > div > span:nth-child(2),span:nth-child(4){
+   color: #6d1bd2;
+}
+.investing-button{
+  background-color: #8032e0 !important;
+  border-radius: 0.5rem;
+  width: 35%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: -3rem;
+}
+.read-section > div > div > div:first-child{
+  font-size: 2rem !important;
+  font-weight: 400 !important;
+}
+.read-section > div > div > div:first-child > span:nth-child(2){
+  color: #6d1bd2
+}
+.read-section > div > div > div:nth-child(2){
+  font-size: 2rem !important;
+  font-weight: 100 !important;
+}
+.read-more-button{
+  background-color: #8032e0 !important;
+  border-radius: 0.5rem;
+  width: 35%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  align-self: center;
+}
+.line{
+  width: 60%;
+  align-self: center;
+}
+.background > div{
+  align-items: center;
+  text-align: center;
+}
+.background > div:first-child > div > div{
+  background-color: #2c2c2bb3;
+  // margin-left: 7rem;
+  // margin-right: 7rem;
+  border-radius: 0.8rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.background > div:nth-child(2) > div > div{
+  background-color: #2c2c2bb3;
+  // margin-left: 7rem;
+  // margin-right: 7rem;
+  border-radius: 0.8rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.background > div:first-child > div > div > div:nth-child(2){
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+.background > div:nth-child(2) > div > div > div:nth-child(2){
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+.background > div:first-child > div > div > div:nth-child(3){
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.background > div:nth-child(2) > div > div > div:nth-child(3){
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.mlr{
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.bg-2{
+  background-image: url('/images/about-kubera/img-3.png'),url('/images/about-kubera/img-4.png');
+  background-size:15%;
+  background-position:top left,bottom right;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.started-section{
+  text-align: center;
+  background-color: #2f253c;
+  border-radius: 0.8rem;
+  padding: 3rem;
+  line-height: 2rem;
+  margin-left: 8rem;
+  margin-right:8rem;
+  border: 8px solid #9c88e4;
+}
+.started-section > div > div > div:first-child{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.started-section > div > div > div:nth-child(2){
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.started-section > div > div > button{
+  width: 50%;
+  justify-content: center;
+  background-color: #8032e0;
+  align-self: center;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1.5rem !important;
+}
+.bg-3{
+  background-color: #8032e0;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.bg-3 > div > div > div:first-child{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.bg-3 > div > div > div:nth-child(2){
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #bd8cfa;
+}
+.bg-3 > div > div > div:first-child > span:nth-child(2){
+  font-size: 1.8rem;
+  font-weight: 100;
+  color:#ddd4e7;
+}
+.returns-section > div > div > div{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.returns-section > div > div > div > span{
+  font-size: 2rem;
+  font-weight: 400;
+  color:#c596ff !important;
+}
+.deals-section > div:first-child > div > div > div{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.deals-bg > div{
+  background-color: rgba(44, 44, 43, 0.7019607843);
+  border-radius: 0.5rem;
+  padding: 3rem;
+  line-height: 2rem;
+}
+.deals-bg{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.deals-bg > div:first-child,:nth-child(2) > div > div:not(:nth-child(2)){
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.deals-bg > div:first-child > div > div:nth-child(2){
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.deals-bg > div:nth-child(2) > div > div:nth-child(2){
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.bg-4{
+  background-image: url('/images/about-kubera/left-side-ellipse.png'),url('/images/about-kubera/right-side-ellipse.png');
+  background-position: top left,top right;
+  background-repeat: no-repeat;
+}
+.opportunities{
+  text-align: center !important;
+}
+.opportunities > div > div > button{
+  background-color: #8032e0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+.questions-section{
+  text-align: center !important;
+}
+.questions-section > div > div > button{
+  background-color: #8032e0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  width: 40%;
+  align-self: center;
+}
+.questions-section > div > div > div:nth-child(2){
+  font-weight: 100;
+}
+.phone-bg{
+  background-color:#2f253c !important;
+  align-items: center;
+  background-image: url('/images/about-kubera/3-lines.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.phone-img{
+  width: 100%;
+  align-items: baseline;
+  padding-top: 2rem;
+}
+.play-store img{
+  width: 38%;
+  margin-top: 2rem;
+}
+.font-2p5{
+  font-size: 2.5rem !important;
+  font-weight: 400 !important;
+}
+
+@media all and (max-width: 950px) {
+  .padding{
+    padding-top: 4rem;
+  }
+  .bg-1{
+    background-size:cover;
+  }
+  .center{
+    padding-top:3rem;
+  }
+  .center > div:first-child,div:nth-child(2){
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .kuber-img{
+    width: 100%;
+  }
+  .investing-button{
+    width: 58%;
+    font-size: 1.2rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+  }
+  .read-section > div > div > div:first-child{
+    font-size: 1.2rem !important;
+  }
+  .read-section > div > div > div:nth-child(2){
+    font-size: 1.2rem !important;
+  }
+  .read-more-button{
+    border-radius: 0.2rem;
+    width: 60%;
+    font-size: 1.3rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+  }
+  .bg-2{
+    background-image:none;
+  }
+  .deals-bg > div:first-child,:nth-child(2) > div > div:not(:nth-child(2)){
+    font-size: 1.4rem;
+  }
+  .mlr{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .started-section{
+    border-radius: 0.5rem;
+    padding: 1rem;
+    line-height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.50rem;
+    border: 3px solid #9c88e4;
+  }
+  .started-section > div > div > div:first-child{
+    font-size: 1.4rem;
+  }
+  .started-section > div > div > div:nth-child(2){
+    font-size: 1.2rem;
+  }
+  .started-section > div > div > button{
+    width: 100%;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem !important;
+  }
+  .returns-section > div > div > div{
+    font-size: 1.4rem;
+  }
+  .returns-section > div > div > div > span{
+    font-size: 1.4rem;
+  }
+  .bg-3{
+    border-radius: 0.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .bg-3 > div > div > div:first-child{
+    font-size: 1.4rem;
+  }
+  .bg-3 > div > div > div:first-child > span:nth-child(2){
+    font-size: 1.4rem;
+  }
+  .bg-3 > div > div > div:nth-child(2){
+    font-size: 1.4rem;
+  }
+  .deals-section > div:first-child > div > div > div{
+    font-size: 1.4rem;
+  }
+  .deals-bg > div{
+    background-color: rgba(44, 44, 43, 0.7019607843);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    line-height: 1.8rem;
+  }
+  .deals-bg{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .deals-bg > div:first-child,:nth-child(2) > div > div:not(:nth-child(2)){
+    font-size: 1.2rem !important;
+  }
+  .deals-bg > div:first-child > div > div:nth-child(2){
+    font-size: 1.2rem;
+  }
+  .deals-bg > div:nth-child(2) > div > div:nth-child(2){
+    font-size: 1.2rem;
+  }
+  .opportunities > div > div > button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+  }
+  .questions-section > div > div > button{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    width: 60%;
+  }
+  .phone-img{
+    padding-top: 1rem;
+  }
+  .play-store img{
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .phone-bg{
+    background-size: cover;
+    padding-bottom: 2rem;
+  }
+  .background > div:first-child > div > div > div:nth-child(2){
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .background > div:first-child > div > div > div:nth-child(3){
+    font-size: 1.2rem;
+  }
+  .background > div:nth-child(2) > div > div > div:nth-child(2){
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .background > div:nth-child(2) > div > div > div:nth-child(3){
+    font-size: 1.2rem;
+  }
+  .mt-3{
+    margin-top: 1.5rem;
+  }
+  .mt-4{
+    margin-top: 2rem;
+  }
+  .m-2{
+    margin-top: 1rem !important;
+  }
+}

@@ -1,1 +1,37 @@
 <app-menu-bar></app-menu-bar>
+<div fxLayout="column" class="padding">
+  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutALign="center" fxLayoutGap.xl="4rem" fxLayoutGap.lg="4rem" fxLayoutGap.md="4rem" fxLayoutGap.sm="2rem" fxLayoutGap.xs="2rem"  class="center">
+    <div fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100">
+      <div fxLayout="row" fxLayoutAlign.xl="end" fxLayoutAlign.lg="end" fxLayoutALign.md="end" fxLayoutAlign.sm="center" fxLayoutAlign.xs="center">
+        <img src="/images/faqs/img-1.png" class="faqs-img"/>
+      </div>
+    </div>
+    <div fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100">
+      <div fxLayout="column" fxLayoutGap.xl="1rem" fxLayoutGap.lg="1rem" fxLayoutGap.md="1rem" fxLayoutGap.xs="0.5rem" fxLayoutGap.sm="0.5rem">
+        <div class="font-1p5">Frequently Asked Questions</div>
+        <img src="/images/line.svg" class="line"/>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center">
+    <div class="font-1p5 mb-2 mt-2 fw-100">Here are answers to questions that we get asked most about investing in Kubera Scheme</div>
+  </div>
+  <div fxLayout="column" fxLayoutGap="2rem" class="mb-2" *ngFor="let faq of faqs">
+    <mat-accordion>
+      <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+        <mat-expansion-panel-header>
+          <mat-panel-title>{{faq.question}}</mat-panel-title>
+        </mat-expansion-panel-header>
+        <div fxLayout="row" >
+          <div fxLayout="column">
+            <p>{{faq.answer}}</p>
+          </div>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+  <div fxLayout="row" class="mt-2 mb-2">
+    <div>All investment opportunities on our platform carry risk and investors should carefully evaluate whether the opportunity is suitable for them before making the investments. Please read the detailed risk factors available at <a href=""> https://www.kubera scheme.com/risk-disclosure</a> before making an investment.</div>
+  </div>
+</div>
+<app-footer></app-footer>
