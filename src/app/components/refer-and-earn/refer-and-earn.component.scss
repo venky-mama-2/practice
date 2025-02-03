@@ -1,0 +1,188 @@
+.padding{
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.bg-1{
+  background-image: url('/images/refer-and-earn/img-9.png');
+  background-size: 100%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+}
+.img-2{
+  border-top-left-radius: 1rem;
+}
+.bg-2{
+  background-color: #000;
+  opacity: 0.8;
+  background-size: 100%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom:0rem;
+  border-radius: 1rem;
+  background-position:center;
+}
+.img-3{
+  width: 75%;
+}
+.margin{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.font-2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.f-1p5{
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 2.2rem;
+}
+.button-1{
+  border-radius: 0.2rem;
+  padding: 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: #8032e0 !important;
+  width: 86%;
+}
+.bg-2 > div:nth-child(3){
+  align-items: center !important;
+}
+.ml-3{
+  margin-left: 3rem;
+}
+.mt-n7{
+  margin-top: -7rem;
+}
+.refer-friend{
+  align-items: center;
+}
+.refer-friend > div:first-child > img{
+  width:50%;
+}
+.heading{
+  font-size: 2rem;
+}
+.heading2{
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: 100;
+}
+.button-2{
+  border-radius: 0.2rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #18b625 !important;
+  width: 86%;
+}
+.refer{
+  align-items: center !important;
+  display: flex
+}
+.earn{
+  align-items: center;
+  justify-content: center;
+}
+.border{
+  background-color: #8032e0;
+  border-radius: 1rem;
+  align-items: center !important;
+  padding: 1rem;
+}
+.under-line{
+  width: 37%;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.align{
+  align-items: center;
+}
+.hr{
+  width: 40%;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.img-7{
+  width: 90%;
+}
+.refferal-section{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  // align-items: center;
+}
+@media all and (max-width: 950px) {
+  .padding{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .bg-1{
+    background-size:cover;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+  }
+  .margin{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .ml-3{
+    margin-left: 0rem;
+  }
+  .font-2{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  .f-1p5{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .mt-3{
+    margin-top: 0rem !important;
+  }
+  .mt-1{
+    margin-top: 1rem;
+  }
+  .mt-2{
+    margin-top: 1rem;
+  }
+  .bg-2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom:2rem;
+  }
+  .button-1{
+    width: 100%;
+  }
+  .refer-friend > div:first-child > img{
+    width:20%;
+  }
+  .img-4{
+    width: 80%;
+  }
+  .heading{
+    font-size: 1.5rem;
+  }
+  .heading2{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .button-2{
+    width:100%;
+  }
+  .mlr{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .refferal-section{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+  }
+}

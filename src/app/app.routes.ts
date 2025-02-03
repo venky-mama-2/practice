@@ -33,9 +33,13 @@ export const routes: Routes = [
     path:"refer-and-earn",
     loadComponent: () => import('./components/refer-and-earn/refer-and-earn.component').then( c => c.ReferAndEarnComponent)
   },
+  // {
+  //   path:"login",
+  //   loadComponent: () => import('./components/login/login.component').then( c => c.LoginComponent)
+  // },
   {
-    path:"login",
-    loadComponent: () => import('./components/login/login.component').then( c => c.LoginComponent)
+    path:"login-popup",
+    loadComponent: () => import('./components/login-popup/login-popup.component').then( c => c.LoginPopupComponent)
   },
   {
     path:"our-company",

@@ -1,0 +1,65 @@
+<app-menu-bar></app-menu-bar>
+<div fxLayout="column" class="bg-1">
+  <div fxLayout="row">
+    <div fxFlex="25">
+      <img src="/images/login/img-2.png" class="img-2"/>
+    </div>
+    <div fxFlex="50">
+      <div fxLayout="row" fxLayoutAlign="center">
+        <div class="login">Login</div>
+      </div>
+    </div>
+    <div fxFlex="25">
+      <img src="/images/login/img-1.png" class="img-1"/>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutALign="center" class="gap">
+    <div fxFlex="33.3">
+    </div>
+    <div fxFlex="33.3">
+      <mat-card appearance="outlined" class="card">
+        <mat-card-content>
+          <div fxLayout="column" fxLayoutGap="1.5rem">
+            <div class="heading">welcome Back</div>
+            <form fxLayout="column">
+              <mat-form-field>
+                <mat-label>Phone Number</mat-label>
+                <input
+                  matInput
+                  placeholder="Enter Phone Number"
+                  required
+                />
+                <div fxLayout="column" matPrefix>
+                  <div fxLayout="row" fxLayoutGap="0.5rem" class="align-center">
+                    <img [src]="selectedFlag" class="flags"/>
+                    <i class="las la-chevron-down" ></i>
+                    <div>{{selectedCountryCode}}</div>
+                  </div>
+                </div>
+              </mat-form-field>
+              <div fxLayout="column" *ngIf="showFlags" class="flags-dropdown" fxLayoutGap="1rem" >
+                @for (group of flagGroup; track group) {
+                  <div fxLayout="row" fxLayoutGap="1rem" (click)="selectFlag(group)" >
+                    <img [src]="group.image" class="flags" />
+                    <div>{{group.name}}</div>
+                    <div>+{{group.code}}</div>
+                  </div>
+                }
+              </div>
+              <button mat-raised-button class="button">Get OTP</button>
+            </form>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div fxFlex="33.3">
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center" class="heading1">
+    Don't have an account?
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center" class="heading1 mb-5">
+    Sign Up
+  </div>
+</div>
+<app-footer></app-footer>

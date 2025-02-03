@@ -1,11 +1,18 @@
-.bg-img-1{
+.bg-1{
   background-image: url('/images/login/img-3.png');
   background-size: 100%;
-}
-.hands{
-  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: fill;
 }
 .img-2{
   width: 100%;
   padding-top: 5rem;
+}
+.img-1{
+  width: 100%;
+}
+.login{
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 9rem;
 }

@@ -12,6 +12,8 @@
 }
 .center{
   align-items: center !important;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .font-2{
   font-size: 1.8rem;
@@ -22,16 +24,148 @@
   background-image: url('/images/about-us/background.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  padding-bottom: 4rem;
+  border-bottom: 7px solid #fff;
 }
 .man{
-  width: 30%;
+  width: 70%;
 }
 .our{
-  width: 20%;
+  width:30%;
 }
 .mile-stone{
-  width: 40%;
+  width: 70%;
 }
 .items-end{
   align-items: end !important;
+}
+.self-center{
+  align-self: center;
+}
+.card-color > div:first-child > mat-card{
+  background-color: #a266ec;
+  border-color: #a266ec;
+}
+.card-color > div:nth-child(2) > mat-card{
+  background-color: #a266ec;
+  border-color: #a266ec;
+}
+.card{
+  color: #fff;
+  padding: 0.5rem;
+  white-space: nowrap;
+}
+.card > div{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.plr{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.values img{
+  width: 10%;
+}
+.content > div:nth-child(2){
+  font-size: 2rem;
+  font-weight: 400;
+}
+.content > div:nth-child(3){
+  font-size: 1.6rem;
+  font-weight: 100;
+  line-height: 2rem;
+}
+.values-devide > div:not(:last-child){
+  margin-bottom: 4rem;
+  border-bottom: 2px solid;
+}
+.values > div:nth-child(2){
+  border-right: 2px solid;
+}
+.values-devide > div{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+@media all and (max-width: 950px) {
+  .padding{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  .about-us-img{
+    width: 80%;
+    margin: auto;
+  }
+  .img-2{
+    width: 70%;
+    margin: auto;
+  }
+  .font-2{
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+  }
+  .center{
+    align-items: center !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .values-img{
+    width: 80%;
+  }
+  .values > div:nth-child(2){
+    border-right:none;
+  }
+  .values-devide > div{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 4rem;
+  }
+  .values-devide > div:not(:last-child){
+    margin-bottom: 4rem;
+    border-bottom: 2px solid;
+    width: 50%;
+  }
+  .values img{
+    width: 20%;
+  }
+  .plr{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .bg-1{
+
+    background-size: 0%;
+    padding-bottom: 4rem;
+    border-top: 3px solid #fff;
+    background-color: #411f6d;
+    border-bottom: 3px solid #fff;
+  }
+  .our{
+    margin: auto;
+  }
+  .mile-stone{
+   margin: auto;
+  }
+  .values-devide > div:not(:last-child){
+    margin-bottom: 2rem;
+    border-bottom: 2px solid;
+    width: 100%;
+  }
+  .values > div:nth-child(2){
+    border-bottom: 2px solid #fff;
+  }
+  .plr-1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .values-devide > div{
+    padding-bottom: 2rem;
+  }
+  .mt-5{
+    margin-top: 2rem;
+  }
+
 }

@@ -1,0 +1,65 @@
+.padding{
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.f-2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.f-1p5{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.logo{
+  width: 90%;
+}
+.button-1{
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  color: #fff !important;
+  background-color:#8032e0 !important;
+  border-radius: 0.5rem;
+}
+.size > div > img{
+  width: 100%;
+}
+.size > div:nth-child(2) > div > div:first-child{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.size > div:nth-child(2) > div > div:first-child{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.size > div:nth-child(2) > div > div:nth-child(2){
+  font-size: 1.2rem;
+  font-weight:100;
+}
+
+@media all and (max-width: 950px) {
+  .padding{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .logo{
+    width:100%;
+  }
+  .size > div > img{
+    width: 20%;
+  }
+  .f-2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .f-1p5{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .margin{
+    margin-top: 2rem;
+  }
+}

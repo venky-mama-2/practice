@@ -1,0 +1,53 @@
+.bg-1{
+  background-image: url('/images/login/img-3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: fill;
+}
+.img-2{
+  width: 100%;
+  padding-top: 5rem;
+}
+.img-1{
+  width: 100%;
+}
+.login{
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 9rem;
+}
+.heading{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.card{
+  // width: 33%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.button{
+  font-size: 1.2rem;
+  background: #8032e0 !important;
+  color: #fff !important;
+  border-radius: 0.2rem;
+}
+.gap{
+  margin-top: -13rem;
+}
+.heading1{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.flags{
+  width: 2rem;
+  object-fit: cover;
+  margin-left: 0.5rem;
+}
+.align-center{
+  align-items: center;
+}

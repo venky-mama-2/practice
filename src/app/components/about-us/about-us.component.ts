@@ -3,6 +3,7 @@ import { MenuBarComponent } from "../../components/menu-bar/menu-bar.component";
 import { FooterComponent } from "../footer/footer.component";
 import { FlexLayoutModule } from '@ngbracket/ngx-layout';
 import { FlexLayoutServerModule } from '@ngbracket/ngx-layout/server';
+import {MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-about-us',
@@ -11,7 +12,8 @@ import { FlexLayoutServerModule } from '@ngbracket/ngx-layout/server';
     MenuBarComponent,
     FooterComponent,
     FlexLayoutModule,
-    FlexLayoutServerModule
+    FlexLayoutServerModule,
+    MatCardModule
 ],
   templateUrl: './about-us.component.html',
   styleUrl: './about-us.component.scss'
