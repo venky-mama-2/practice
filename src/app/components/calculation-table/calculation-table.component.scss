@@ -1,0 +1,64 @@
+.padding{
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.f-1p8{
+  font-size: 1.8rem;
+}
+.f-1p3{
+  font-size: 1.3rem;
+  align-items: center;
+}
+mat-form-field{
+  width: 50%;
+}
+.scheme-save div{
+  font-size: 1.6rem;
+  font-size: 1.1rem;
+}
+.center{
+  align-items: center;
+}
+.bg-1{
+  background: #5e5e5e;
+  padding: 0.5rem;
+  margin-top: -0.8rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+.scheme div{
+  color: #000;
+  align-items: center;
+}
+.money{
+  background-color: #5e5e5e;
+  padding: 0.4rem;
+  width: 40%;
+  text-align: center;
+  color: #fff !important;
+}
+.f-2{
+  font-size: 2rem;
+  font-weight: 500;
+  align-self: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+
+@media all and (max-width: 950px) {
+  .padding{
+    padding-top: 5rem;
+    padding-bottom:1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+  .f-1p8{
+    font-size: 1.2rem;
+  }
+  mat-form-field{
+    width: 100%;
+  }
+}

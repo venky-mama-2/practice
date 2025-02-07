@@ -1,0 +1,178 @@
+<app-menu-bar></app-menu-bar>
+<div fxLayout="column" fxLayoutGap="3rem" class="padding">
+  <div fxLayout="row">
+    <div class="f-1p8">
+      See How Much You Can Save
+    </div>
+  </div>
+  <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" class="center">
+    <div fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100">
+      <div fxLayout.xl="row" fxLayout.lg="row" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xl="3rem" fxLayoutGap.lg="3rem" fxLayout.md="3rem" fxLayout.sm="1rem" fxLayout.xs="1rem" class="center">
+        <div class="f-1p3" fxShow.xl fxShow.lg fxShow.md fxHide.sm fxHide.xs>Scheme</div>
+        <mat-form-field fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100">
+          <mat-label>Select Scheme</mat-label>
+          <mat-select [(ngModel)]="selectedValue" name="food">
+            @for (food of foods; track food) {
+              <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+    <div fxFlex.xl="50" fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100" class="scheme-save">
+      <div fxLayout="column" fxLayoutGap="1rem">
+        <div>* Principle Amount : Scheme you have selected</div>
+        <div>* Bonus Amount : Scheme you sekected + our bonus</div>
+        <div>* Deductions : Making GST and others</div>
+        <div>* Wallet : Carry forward from No.of grams value</div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row" >
+    <mat-card fxFlex="100">
+      <mat-card-content>
+        <div fxLayout="column" fxLayoutGap="1.5rem">
+          <div fxLayout="row" fxLayoutAlign="center" class="bg-1">
+            You Selected 10,00,000 Plan. Month Wise Plan
+          </div>
+          <!-- <div fxFlex="100">
+            <form>
+              <div fxLayout="row" fxLayoutAlign="center"  fxFlex="100">
+                <div fxFlex="20">
+                  <mat-form-field>
+                    <mat-label>Favorite food</mat-label>
+                    <input matInput  value="5,00,000">
+                  </mat-form-field>
+                </div>
+                <div fxFlex="20">
+                  <mat-form-field>
+                    <mat-label>Favorite food</mat-label>
+                    <input matInput  value="5,00,000">
+                  </mat-form-field>
+                </div>
+                <div fxFlex="20">
+                  <mat-form-field>
+                    <mat-label>Favorite food</mat-label>
+                    <input matInput  value="5,00,000">
+                  </mat-form-field>
+                </div>
+                <div fxFlex="20">
+                  <mat-form-field>
+                    <mat-label>Favorite food</mat-label>
+                    <input matInput  value="5,00,000">
+                  </mat-form-field>
+                </div>
+                <div fxFlex="20">
+                  <mat-form-field>
+                    <mat-label>Favorite food</mat-label>
+                    <input matInput  value="5,00,000">
+                  </mat-form-field>
+                </div>
+              </div>
+            </form>
+
+
+
+            <div fxFlex="20">
+
+            </div>
+            <div fxFlex="20">
+
+            </div>
+            <div fxFlex="20">
+
+            </div>
+            <div fxFlex="20">
+
+            </div>
+          </div> -->
+
+          <div fxLayout="row" fxLayoutAlign="center" fxFlex="100" class="scheme">
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Purchase Value</div>
+                <div class="money">10,00,000</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Added Value</div>
+                <div class="money">10,00,000</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Total Value</div>
+                <div class="money">20,00,000</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Monthly Payout</div>
+                <div class="money">50,000</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Principal Amount</div>
+                <div class="money">25,000</div>
+              </div>
+            </div>
+          </div>
+          <div fxLayout="row" fxLayoutAlign="center" fxFlex="100" class="scheme">
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Add. Amount</div>
+                <div class="money">25,000</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>TDS.V</div>
+                <div class="money">2,500</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Gst</div>
+                <div class="money">3%</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Making Charges</div>
+                <div class="money">3%</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Metal Value</div>
+                <div class="money">5.6gm</div>
+              </div>
+            </div>
+          </div>
+          <div fxLayout="row" fxLayoutAlign="center" fxFlex="100" class="scheme">
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Today Gram Rate</div>
+                <div class="money">8,150.00</div>
+              </div>
+            </div>
+            <div fxFlex="20">
+              <div fxLayout="column" fxLayoutGap="0.3rem">
+                <div>Today Metal Issue</div>
+                <div class="money">5gm</div>
+              </div>
+            </div>
+            <div fxFlex="60">
+              <div fxLayout="row" class="f-2">
+                UP To 40 MONTHS TOTAL SCHEME
+              </div>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<app-footer></app-footer>

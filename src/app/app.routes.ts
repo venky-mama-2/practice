@@ -84,5 +84,9 @@ export const routes: Routes = [
   {
     path:"cancellation-policy",
     loadComponent: () => import('./components/cancellation-policy/cancellation-policy.component').then( c => c.CancellationPolicyComponent)
+  },
+  {
+    path:"calculation",
+    loadComponent: () => import('./components/calculation-table/calculation-table.component').then( c => c.CalculationTableComponent)
   }
 ];
